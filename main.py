@@ -1,14 +1,17 @@
-print("Welcome to my first python game.")
+print("Welcome to my first python game.\n")
 
 # user inputs
 name = input("What is your name? ")
 print("Hello " + name)
-age = input("What is your age? ")
-print("Hello", name, "you are", age, "years old")
+age = int(input("What is your age? "))
+print("Hello", name, "you are", age, "years old.")
 
 #check if player is old enoguh to play using conditions
 
-
+if age >= 18:
+    print("You are old enough to play.")
+else:
+    print("You're not old enough to participate")
 
 '''
 DATA TYPES
